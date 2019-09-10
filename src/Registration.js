@@ -58,15 +58,15 @@ class Registration extends Component {
         <Form onSubmit = {this.handleSubmit}>
           <Form.Group controlId="username" size="lg">
             <Form.Label>Username </Form.Label>
-            <Form.Control autoFocus name="username" />
+            <Form.Control autoFocus name="username" placeholder="Enter Username" />
           </Form.Group>
 
           <Form.Group controlId="password" size="lg">
             <Form.Label>Password </Form.Label>
-            <Form.Control type="password" name="password" />
+            <Form.Control type="password" name="password" placeholder="Password" />
           </Form.Group>
 
-          <Button block size="lg" type="submit">Register</Button>
+          <Button block size="lg" type="submit" variant="primary">Register</Button>
         </Form>
       </div>
 
